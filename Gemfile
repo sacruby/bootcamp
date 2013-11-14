@@ -51,5 +51,4 @@ end
 gem 'anjlab-bootstrap-rails', '~> 3.0.2.0', :require => 'bootstrap-rails'
 gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'
-
-# gem 'rails_12factor', group: :production
+gem 'rails_12factor', group: :production
