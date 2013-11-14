@@ -1,5 +1,6 @@
 Findmybike::Application.routes.draw do
-  devise_for :users
+  devise_for :users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   devise_scope :user do
     get 'sign_out', to: 'devise/sessions#destroy'
   end
