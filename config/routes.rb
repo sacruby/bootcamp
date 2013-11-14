@@ -1,4 +1,6 @@
 Findmybike::Application.routes.draw do
+  resources :bikes
+
   get "static/home"
   get "static/about"
 

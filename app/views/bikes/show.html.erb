@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bike.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @bike.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @bike.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @bike.state %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @bike.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @bike.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_bike_path(@bike) %> |
+<%= link_to 'Back', bikes_path %>
