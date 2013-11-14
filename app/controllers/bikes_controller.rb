@@ -1,4 +1,5 @@
 class BikesController < ApplicationController
+  before_filter :authenticate_user!
   before_action :set_bike, only: [:show, :edit, :update, :destroy]
   layout "bike_layout"
 
@@ -26,6 +27,7 @@ class BikesController < ApplicationController
   # POST /bikes.json
   def create
     @bike = Bike.new(bike_params)
+    current_user.bikes << @bike
 
     respond_to do |format|
       if @bike.save
@@ -42,6 +44,7 @@ class BikesController < ApplicationController
   # PATCH/PUT /bikes/1.json
   def update
     respond_to do |format|
+      current_user.bikes << @bike unless @bike.user_id
       if @bike.update(bike_params)
         format.html { redirect_to @bike, notice: 'Bike was successfully updated.' }
         format.json { head :no_content }

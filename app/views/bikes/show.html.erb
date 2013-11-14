@@ -1,6 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Owner:</strong>
+  <%= @bike.user.try(:email) %>
+</p>
+
+<p>
   <strong>Name:</strong>
   <%= @bike.name %>
 </p>

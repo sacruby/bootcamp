@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
@@ -48,6 +49,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'anjlab-bootstrap-rails', '~> 3.0.2.0', :require => 'bootstrap-rails'
+gem 'devise'
 
-ruby "2.0.0"
 # gem 'rails_12factor', group: :production

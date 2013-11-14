@@ -8,6 +8,13 @@
 <section class="container">
   <%= render "map" %>
 </section>
+<section class="container">
+  <% if user_signed_in? %>
+    <%= link_to "Report Bike", new_bike_path %>
+    <% else %>
+    <%= link_to "Sign in to report a bike", new_bike_path %>
+    <% end %>
+  </section>
 <footer>
   Copyright 2013 Mobirobo Rails Bootcamp
 </footer>
