@@ -106,10 +106,16 @@ We will split this session into 4 parts:
 
 # Code Snippets
 
+## Part 2
+
 * [Google Maps Static URL](https://gist.github.com/darinkrauss/7478432)
 * [StaticHelper.markers_param](https://gist.github.com/darinkrauss/7478517)
 
+## Part 3
 
+* [Devise Scope](https://gist.github.com/darinkrauss/7478702)
+* [Sign In Section](https://gist.github.com/darinkrauss/7478730)
 
+## Part 4
 
-
+* [ActiveAdmin Additions](https://gist.github.com/darinkrauss/7478737)
