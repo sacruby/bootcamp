@@ -103,6 +103,7 @@ We will split this session into 4 parts:
 * http://www.activeadmin.info/
 * http://www.rubygeocoder.com/
 * http://www.mobirobo.com/rails-bootcamp
+* http://jaysonlane.net/tech-blog/2012/04/rails-devise-and-active-admin-single-user-model/
 
 # Code Snippets
 
@@ -119,3 +120,4 @@ We will split this session into 4 parts:
 ## Part 4
 
 * [ActiveAdmin Additions](https://gist.github.com/darinkrauss/7478737)
+* [ActiveAdmin Users](https://gist.github.com/darinkrauss/7478792)
