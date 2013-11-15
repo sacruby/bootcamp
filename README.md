@@ -104,6 +104,12 @@ We will split this session into 4 parts:
 * http://www.rubygeocoder.com/
 * http://www.mobirobo.com/rails-bootcamp
 
+# Code Snippets
+
+* [Google Maps Static URL](https://gist.github.com/darinkrauss/7478432)
+* [StaticHelper.markers_param](https://gist.github.com/darinkrauss/7478517)
+
+
 
 
 
