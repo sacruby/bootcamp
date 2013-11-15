@@ -103,13 +103,21 @@ We will split this session into 4 parts:
 * http://www.activeadmin.info/
 * http://www.rubygeocoder.com/
 * http://www.mobirobo.com/rails-bootcamp
+* http://jaysonlane.net/tech-blog/2012/04/rails-devise-and-active-admin-single-user-model/
 
 # Code Snippets
+
+## Part 2
 
 * [Google Maps Static URL](https://gist.github.com/darinkrauss/7478432)
 * [StaticHelper.markers_param](https://gist.github.com/darinkrauss/7478517)
 
+## Part 3
 
+* [Devise Scope](https://gist.github.com/darinkrauss/7478702)
+* [Sign In Section](https://gist.github.com/darinkrauss/7478730)
 
+## Part 4
 
-
+* [ActiveAdmin Additions](https://gist.github.com/darinkrauss/7478737)
+* [ActiveAdmin Users](https://gist.github.com/darinkrauss/7478792)
